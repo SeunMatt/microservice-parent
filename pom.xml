@@ -72,7 +72,6 @@
         <module>gateway-service</module>
         <module>config-service</module>
         <module>phonebook-service</module>
-        <module>zipkin-service</module>
     </modules>
 
 
