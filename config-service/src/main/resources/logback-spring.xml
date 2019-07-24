@@ -25,7 +25,9 @@
 
                 <pattern>
                     <pattern>
-                        { "serviceName": "${SM_SERVICE_NAME}" }
+                        {
+                        "serviceName": "${SM_SERVICE_NAME}"
+                        }
                     </pattern>
                 </pattern>
 
