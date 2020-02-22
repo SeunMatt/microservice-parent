@@ -21,7 +21,7 @@ public class HomeController {
     }
 
     @GetMapping("/")
-    public ResponseEntity index() {
+    public ResponseEntity<Map<String, Object>> index() {
         Map<String, Object> response = new HashMap<>();
         response.put("status", true);
         response.put("message", "Welcome to Users Service of Seun Matt. This instance is running on port " + env.getProperty("server.port"));
